@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .flex{
@@ -20,8 +21,38 @@
 
 
 
+
 /* header */
 
+header{
+    background-color: rgb(255,105,0);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+}
+
+.head-nav{
+    height: 100px;
+}
+
+
+.left-menu > a{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.right-menu{
+    color: white;
+    word-spacing: 5px;
+}
 
 
 
@@ -78,7 +109,7 @@
 
 
 /* debug */
-
+/* 
 .a{
     background-color: red;
     border: solid black;
@@ -102,4 +133,4 @@
     border: solid black;
     width: 10px;
     height: 10px;
-}
+} */
