@@ -8,6 +8,12 @@
 
 .flex{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ex-padding{
+    padding: 0 15%;
 }
 
 
@@ -16,10 +22,28 @@
 
 /* header */
 
-.head-nav{
-    justify-content: space-around;
-    align-items: center;
+
+
+
+
+
+
+/* main */
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer-padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 
 
 
@@ -44,5 +68,4 @@
 
 .c{
     background-color: yellow;
-    border: solid black;
 }
