@@ -31,6 +31,30 @@ span > a{
 
 
 
+/* background color */
+
+.bk-red{
+    background-color: red;
+}
+
+.bk-green{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* header */
 
 header{
@@ -40,6 +64,7 @@ header{
     position: fixed;
     top: 0px;
     left: 0;
+    z-index: 500;
 }
 
 .head-nav{
@@ -67,36 +92,77 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* main */
 
 .article{
     position: relative;
 }
 
-.heart{
+.art-img{
+    position: relative;
+}
+
+img.front:hover{
+    display: none;
+
+}
+
+.front{
     position: absolute;
-    top: 0;
+
+}
+
+.heart{
+    background-color: white;
+    font-size: 30px;
+    padding: 0px 8px;
+    position: absolute;
+    top: 10px;
     right: 0;
 }
 
-.disc{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 .label{
+    display: flex;
+    align-items: flex-start;
     position: absolute;
-    bottom: 0;
+    bottom: 80px;
     left: 0;
     width: 100%;
 }
 
-.flex-art{
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
+.label > span{
+    margin-right: 10px;
+    padding: 5px;
+    color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -155,3 +221,7 @@ header{
     width: 10px;
     height: 10px;
 } */
+
+.art-img > img{
+    height: 500px;
+}
